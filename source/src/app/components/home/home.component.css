@@ -1,0 +1,44 @@
+.container {
+    height:100%;
+}
+
+.master-row {
+    height: 100%;
+}
+
+.btn-login {
+    width: 200px;
+}
+
+.welcome-page{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.welcome-page-logo{
+    margin: 25px 0; 
+    width: 100%;
+}
+
+.welcome-page-logo > img {
+  width: 130px;
+}
+
+@media(min-width: 480px){
+  .welcome-page-logo > img {
+    width: 160px;
+  }
+}
+
+  
+.welcome-page-title{   
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%
+}
+    
+.welcome-page-features{
+    margin: 14px 0;
+    font-size: 15px;
+}

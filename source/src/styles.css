@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* just aesthetics */
+body{
+  height: 100vh;
+  display:flex;
+  background-color: #f0f8ff;
+}
+
+.container {
+    display: table;
+    height: 100vh;
+    margin: 0 auto;
+    width: 400px;
+}
+.content {
+    padding: 40px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}

@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/fonts/style.css';
+
+html, body {
+    height: 100%;
+}
+
+@import "scss/_rose-theme";
+@import "~bootstrap/scss/bootstrap";
+
+.master-row {
+    height: 100%;
+}
+
+div.block-ui-wrapper--element {
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+
+/* Spinner */
+div.block-ui-wrapper .loader {
+    border-color: #fff; /* Circle color */
+    border-left-color: #708ada; /* Spinning section in circle color */
+}
+
+/* Message */
+div.block-ui-spinner .message {
+    color: #708ada; /* Loading text color */
+}
