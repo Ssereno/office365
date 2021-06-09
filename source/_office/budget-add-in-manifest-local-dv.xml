@@ -16,19 +16,14 @@
   <ProviderName>Primavera Business Software Solutions</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-  <DisplayName DefaultValue="PRIMAVERA ROSE add-in">
-    <Override Locale="pt-PT" Value="PRIMAVERA ROSE add-in" />
+  <DisplayName DefaultValue="SAMPLE Add-in">
   </DisplayName>
-  <Description DefaultValue="This add-in allows edit and analyze data from budgets created in PRIMAVERA ROSE.">
-    <Override Locale="pt-PT" Value="Este suplemento permite editar e analisar informação dos orçamentos criados no PRIMAVERA ROSE." />
+  <Description DefaultValue="Sample add-in to debug....">
   </Description>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
   <IconUrl DefaultValue="https://localhost:4200/assets/icon-32px.png" />
   <HighResolutionIconUrl DefaultValue="https://localhost:4200/assets/icon-64px.png"/>
-
-  <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below-->
-  <SupportUrl DefaultValue="https://pt.primaverabss.com/pt/suporte/free-support/customer-care/" />
 
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
@@ -138,21 +133,17 @@
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
       <bt:ShortStrings>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="PRIMAVERA ROSE add-in">
-           <bt:Override Locale="pt-PT" Value="PRIMAVERA ROSE add-in" />
+        <bt:String id="TaskpaneButton.Label" DefaultValue="DEMO ADDIN">
         </bt:String>
-        <bt:String id="Group1Label" DefaultValue="ROSE" />
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with PRIMAVERA ROSE.">
-          <bt:Override Locale="pt-PT" Value="Comece a usar o PRIMAVERA ROSE."/>
+        <bt:String id="Group1Label" DefaultValue="DEMO" />
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with this demo.">
         </bt:String>
       </bt:ShortStrings>
       <!-- LongStrings max characters==250. -->
       <bt:LongStrings>
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to show a taskpane">
-          <bt:Override Locale="pt-PT" Value="Clique para ver o painel de tarefas."/>
         </bt:String>
-        <bt:String id="GetStarted.Description" DefaultValue="Use PRIMAVERA ROSE add-in to easily edit and update your budgets.">
-          <bt:Override Locale="pt-PT" Value="Use o suplemento PRIMAVERA ROSE para editar e atualizar facilmente os seus orçamentos."/>
+        <bt:String id="GetStarted.Description" DefaultValue="Ready to started...!!!!">
         </bt:String>
       </bt:LongStrings>
     </Resources>
